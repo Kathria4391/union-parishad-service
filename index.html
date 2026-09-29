@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ডিজিটাল সনদ সেবা - ইউনিয়ন পরিষদ</title>
+    <title>ডিজিটাল সনদ সেবা - কাথারিয়া ইউনিয়ন পরিষদ</title>
     <!-- Font Awesome CDN for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- QR Code Generator Library -->
@@ -317,7 +317,7 @@
                 <i class="fa-solid fa-landmark"></i>
             </div>
             <div class="header-title">
-                <h1>১নং সোনাপুর ইউনিয়ন পরিষদ</h1>
+                <h1>কাথারিয়া ইউনিয়ন পরিষদ কার্যালয়</h1>
                 <p>ডিজিটাল নাগরিক সনদ ব্যবস্থাপনা ও সেবা পোর্টাল</p>
             </div>
         </div>
@@ -389,6 +389,10 @@
                                 <option value="৩">৩ নং ওয়ার্ড</option>
                                 <option value="৪">৪ নং ওয়ার্ড</option>
                                 <option value="৫">৫ নং ওয়ার্ড</option>
+                                <option value="৬">৬ নং ওয়ার্ড</option>
+                                <option value="৭">৭ নং ওয়ার্ড</option>
+                                <option value="৮">৮ নং ওয়ার্ড</option>
+                                <option value="৯">৯ নং ওয়ার্ড</option>
                             </select>
                         </div>
                     </div>
@@ -408,7 +412,7 @@
                 <div class="form-group" style="max-width: 500px;">
                     <label>আপনার অ্যাপ্লিকেশন আইডি (Application Tracking ID):</label>
                     <div style="display: flex; gap: 10px;">
-                        <input type="text" id="trackIdInput" placeholder="উদা: UP-10293" style="flex: 1;">
+                        <input type="text" id="trackIdInput" placeholder="উদা: UP-1001" style="flex: 1;">
                         <button onclick="trackApplication()" class="btn"><i class="fa-solid fa-search"></i> খুঁজুন</button>
                     </div>
                 </div>
@@ -427,7 +431,7 @@
                 <div class="form-group" style="max-width: 500px;">
                     <label>সনদ আইডি (Certificate ID):</label>
                     <div style="display: flex; gap: 10px;">
-                        <input type="text" id="verifyCertId" placeholder="উদা: CERT-8823" style="flex: 1;">
+                        <input type="text" id="verifyCertId" placeholder="উদা: CERT-8801" style="flex: 1;">
                         <button onclick="verifyCertificate()" class="btn"><i class="fa-solid fa-check"></i> ভেরিফাই করুন</button>
                     </div>
                 </div>
@@ -470,8 +474,8 @@
             <div class="cert-header">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Government_Seal_of_Bangladesh.svg" alt="Govt Logo" width="60">
                 <h2>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</h2>
-                <h3>১নং সোনাপুর ইউনিয়ন পরিষদ কার্যালয়</h3>
-                <p>উপজেলা: সদর, জেলা: নোয়াখালী</p>
+                <h3>কাথারিয়া ইউনিয়ন পরিষদ কার্যালয়</h3>
+                <p>উপজেলা: বাঁশখালী, জেলা: চট্টগ্রাম</p>
                 <div style="margin-top: 10px; font-weight: bold; font-size: 1.2rem; color: var(--secondary-color);" id="certTitleDisplay">
                     নাগরিকত্ব সনদপত্র
                 </div>
@@ -483,7 +487,7 @@
             </div>
 
             <div class="cert-body">
-                এই মর্মে প্রত্যয়ন করা যাইতেছে যে, <b><span id="cName">...</span></b>, পিতা/স্বামী: <b><span id="cFather">...</span></b>, মাতা: <b><span id="cMother">...</span></b>। জাতীয় পরিচয়পত্র/জন্ম নম্বর: <b><span id="cNid">...</span></b>। সে ১নং সোনাপুর ইউনিয়ন পরিষদের <b><span id="cWard">...</span></b> নং ওয়ার্ডের <b><span id="cVillage">...</span></b> গ্রামের একজন স্থায়ী বাসিন্দা।
+                এই মর্মে প্রত্যয়ন করা যাইতেছে যে, <b><span id="cName">...</span></b>, পিতা/স্বামী: <b><span id="cFather">...</span></b>, মাতা: <b><span id="cMother">...</span></b>। জাতীয় পরিচয়পত্র/জন্ম নম্বর: <b><span id="cNid">...</span></b>। সে কাথারিয়া ইউনিয়ন পরিষদের <b><span id="cWard">...</span></b> নং ওয়ার্ডের <b><span id="cVillage">...</span></b> গ্রামের একজন স্থায়ী বাসিন্দা।
 
                 <br><br>
                 আমার জানা মতে, তিনি রাষ্ট্রের বা সমাজবিরোধী কোনো কর্মকাণ্ডে লিপ্ত নন। তাঁহার স্বভাব ও চরিত্র উত্তম। আমি তাঁহার সর্বাঙ্গীন উন্নতি ও মঙ্গল কামনা করি।
@@ -495,7 +499,7 @@
                     <div style="font-family: 'Brush Script MT', cursive; font-size: 1.5rem; color: blue;">Digital Signed</div>
                     <div class="signature-line">
                         ইউপি চেয়ারম্যান / সচিব<br>
-                        ১নং সোনাপুর ইউনিয়ন পরিষদ
+                        কাথারিয়া ইউনিয়ন পরিষদ
                     </div>
                 </div>
             </div>
@@ -518,25 +522,11 @@
                 mother: "রাবেয়া বেগম",
                 nid: "199226920381023",
                 mobile: "01711000000",
-                village: "সোনাপুর চোরস্তা",
+                village: "কাথারিয়া বাজার",
                 ward: "২",
                 status: "Approved",
                 certId: "CERT-8801",
                 issueDate: "2026-02-15"
-            },
-            {
-                id: "UP-1002",
-                certType: "চারিত্রিক সনদ",
-                name: "সাজেদা আক্তার",
-                father: "রফিকুল ইসলাম",
-                mother: "আমেনা বেগম",
-                nid: "5509201920391",
-                mobile: "01819000000",
-                village: "পূর্ব কালীকাপুর",
-                ward: "১",
-                status: "Pending",
-                certId: "",
-                issueDate: ""
             }
         ];
 
@@ -613,7 +603,7 @@
                     <div class="alert alert-warning">
                         <h3><i class="fa-solid fa-clock"></i> আবেদনটি পর্যালোচনায় রয়েছে (Pending)</h3>
                         <p><b>আবেদনকারীর নাম:</b> ${app.name}</p>
-                        <p>ইউনিয়ন পরিষদ থেকে আবেদন যাচাইয়ের পর সনদ ইস্যু করা হবে।</p>
+                        <p style="margin-top: 10px; color: #555;">ইউনিয়ন পরিষদ থেকে আবেদন যাচাইয়ের পর সনদ ইস্যু করা হবে। পরীক্ষা করার জন্য আপনি <b>'ইউপি এডমিন প্যানেল'</b> মেনুতে গিয়ে এটি <b>Approve</b> করতে পারেন।</p>
                     </div>
                 `;
             }
@@ -634,7 +624,7 @@
                         <p><b>পিতার নাম:</b> ${app.father}</p>
                         <p><b>গ্রাম:</b> ${app.village}, ওয়ার্ড: ${app.ward}</p>
                         <p><b>ইস্যুর তারিখ:</b> ${app.issueDate}</p>
-                        <p><b>ইউনিয়ন:</b> ১নং সোনাপুর ইউনিয়ন পরিষদ</p>
+                        <p><b>ইউনিয়ন:</b> কাথারিয়া ইউনিয়ন পরিষদ</p>
                     </div>
                 `;
             } else {
@@ -706,7 +696,7 @@
             // Generate Dynamic QR Code for Certificate Validation
             document.getElementById("qrcode").innerHTML = "";
             new QRCode(document.getElementById("qrcode"), {
-                text: `Verify URL: https://sonapurup.gov.bd/verify?id=${app.certId}`,
+                text: `Verify URL: https://katharia-union-parishad.netlify.app/verify?id=${app.certId}`,
                 width: 90,
                 height: 90
             });
